@@ -177,10 +177,11 @@ class PipeGrid {
         generateRandomFrom(260, 550),
         SCREEN_HEIGHT - 100
       );
+      
       this.pipes[1] = new Pipe(
         1100,
         0,
-        SCREEN_HEIGHT - GROUND_HEIGHT - this.pipeBottom.height - this.gap
+        SCREEN_HEIGHT - GROUND_HEIGHT - this.pipes[0].height - this.gap
       );
       this.hasCrossedBird = false;
     }
