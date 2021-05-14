@@ -212,13 +212,13 @@ class Canvas {
     this.groundImg = new Image();
     this.gameOverImg = new Image();
 
-    this.birdDownImg.src = "../images/bird-down.png";
-    this.birdMidImg.src = "../images/bird-mid.png";
-    this.birdUpImg.src = "../images/bird-up.png";
-    this.pipeImg.src = "../images/pipe.png";
-    this.backgroundImg.src = "../images/background.png";
-    this.groundImg.src = "../images/ground.png";
-    this.gameOverImg.src = "../images/gameover.png";
+    this.birdDownImg.src = "./images/bird-down.png";
+    this.birdMidImg.src = "./images/bird-mid.png";
+    this.birdUpImg.src = "./images/bird-up.png";
+    this.pipeImg.src = "./images/pipe.png";
+    this.backgroundImg.src = "./images/background.png";
+    this.groundImg.src = "./images/ground.png";
+    this.gameOverImg.src = "./images/gameover.png";
 
     this.startGame = (event) => {
       if (event.key === " ") {
