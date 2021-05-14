@@ -180,7 +180,7 @@ class PipeGrid {
       this.pipes[1] = new Pipe(
         1100,
         0,
-        SCREEN_HEIGHT - this.pipes[0].height - this.gap
+        SCREEN_HEIGHT - GROUND_HEIGHT - this.pipeBottom.height - this.gap
       );
       this.hasCrossedBird = false;
     }
