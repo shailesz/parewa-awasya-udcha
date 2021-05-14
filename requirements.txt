@@ -1,0 +1,19 @@
+Assignment 5: Flappy Bird
+Description: Clone of the Flappy Bird game
+
+Requirements:
+Should meet the bare requirements of Flappy Bird.  ✅
+The pipe generation should be fair to the player. ✅
+The bird should accelerate downwards to the ground based on gravity, instead of the y coordinate changing by a fixed value. ✅
+Should maintain and persist scores and highscore. ✅
+Should have assets of bird ✅, pipe ✅, and background.✅
+Should have animated bird assets.✅
+During a game over situation, the game should restart on a click of a restart button without the need to reload the page. ✅
+Should have an initial start screen with a start button that initializes the game.✅
+
+
+
+Extra Features:
+Bird position change should animate when jumping, e.g. instead of decreasing the y value by a jump amount, gradually animate the jump.
+Multiple instances of the game should be playable simultaneously.
+The bird should gradually rotate so as to be facing the ground while falling downward
